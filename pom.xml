@@ -19,6 +19,7 @@
             <id>papermc</id>
             <url>https://repo.papermc.io/repository/maven-public/</url>
         </repository>
+
         <repository>
             <id>jitpack</id>
             <url>https://jitpack.io</url>
@@ -26,6 +27,8 @@
     </repositories>
 
     <dependencies>
+
+        <!-- PAPER API -->
         <dependency>
             <groupId>io.papermc.paper</groupId>
             <artifactId>paper-api</artifactId>
@@ -33,12 +36,22 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- JOBS REBORN -->
         <dependency>
             <groupId>com.github.Zrips</groupId>
             <artifactId>Jobs</artifactId>
             <version>5.2.6.3</version>
             <scope>provided</scope>
         </dependency>
+
+        <!-- CMILIB -->
+        <dependency>
+            <groupId>com.github.Zrips</groupId>
+            <artifactId>CMILib</artifactId>
+            <version>1.5.9.7</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
