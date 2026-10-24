@@ -1,0 +1,12 @@
+
+name: ElementiaBrewing
+version: 1.0.0
+main: elementia.brewing.ElementiaBrewing
+api-version: '26.2'
+depend:
+  - Jobs
+
+commands:
+  eiksironay:
+    description: Iksir standi sahiplik uyarisini onaylar.
+    usage: /eiksironay
